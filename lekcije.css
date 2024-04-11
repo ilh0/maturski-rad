@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F4F3;
+}
+.content h2 {
+    margin-top: 40px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.komponenteList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.kartica {
+    width: 30%;
+    height: 150px;
+    background-color: #fff;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
+    border-radius: 20px;
+}
+
+.slika {
+    grid-row-end: span 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.naslov {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.naslov h3 {
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 5px;
+}
+
+.learnMore {
+
+    display: flex;
+    justify-content: center;
+}
+
+.learnMore button {
+    width: 140px;
+    height: 46px;
+    outline: none;
+    border: none;
+    background-color: #254286;
+    box-shadow: 8px 8px rgba(227, 155, 47, 1);
+    color: #fff;
+    font-family: 'ABeeZee', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.learnMore button:hover {
+    background-color:rgba(227, 155, 47, 1) ;
+    box-shadow: 8px 8px rgba(37, 66, 134, 1);
+}
+.odabirKomponenti {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+
+.OKtekst {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.OKtekst p {
+    text-wrap: wrap;
+    font-family: 'ABeeZee', sans-serif;
+    letter-spacing: 1px;
+}
+
+.fix {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.OKslika { 
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.OKslika img {
+    margin-right: 60px;
+}
+
+
+.linkovi {
+    width: 90%;
+    background-color: #fff;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pitanja {
+    width: 100%;
+    background-color:brown;
+    height: 300px;
+}

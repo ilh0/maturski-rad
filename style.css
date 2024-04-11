@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 15px rgba(127, 154, 170, 0.4);
-
+    z-index: 100;
 }
 
 .navbarlogo img {
@@ -36,6 +36,7 @@ nav {
     color: #000;
     font-family: 'ABeeZee', sans-serif;
     font-weight: bolder;
+    padding: 10px;
 
 }
 
@@ -91,7 +92,7 @@ nav {
     }
 }
 
-.homeContent{
+.homeContent {
     width: 100%;
     height: 325px;
 
@@ -104,7 +105,7 @@ nav {
     margin-left: 10vw;
 }
 
-.slogan h1{
+.slogan h1 {
     font-size: 36px;
     font-family: 'ABeeZee', sans-serif;
 }
@@ -113,24 +114,43 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items:flex-end;
+    align-items: flex-end;
     margin-right: 10vw;
 }
 
 .opcije-tekst button {
     margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: #254286;
+    box-shadow: 8px 8px rgba(227, 155, 47, 1);
+    color: #fff;
+    font-family: 'ABeeZee', sans-serif;
+    letter-spacing: 2px;
 }
 
 .opcije-tekst p {
     font-family: 'ABeeZee', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 #getStarted {
     width: 160px;
     height: 50px;
+    cursor: pointer;
+    transition: 0.15s;
 }
 
-.banner { 
+#getStarted:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+
+.banner {
     width: 100%;
     height: 100%;
 }
@@ -139,17 +159,42 @@ nav {
     width: 100vw;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
 
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 66px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a:is(:link, :active, :visited).active {
-    color: red;
+    background-color: #254286;
+    box-shadow: 6px 6px rgba(227, 155, 47, 1);
+    color: #fff;
 }
+
+.footer p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+}
+
+.footer i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-brands, .fa-solid { 
+    font-size: 22px;
+}
+
+

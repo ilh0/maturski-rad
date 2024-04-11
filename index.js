@@ -13,3 +13,7 @@ const navLinkovi = document.querySelectorAll('nav a').forEach(link => {
     }
 })
 
+document.getElementById("getStarted").onclick = function () {
+    location.href = "lekcije.html";
+};
+
