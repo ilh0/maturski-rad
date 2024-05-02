@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    width: 80vw;
+    height: 100%;
+    background-color: red;
+   
+}
+
+.slike {
+    height: 100%;
+    background-color: #f2f4f3;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.naslov {
+    height: 70px;
+    grid-column-end: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slika {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opis { 
+    height: 100%;
+    background-color: #f2f4f3;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fix { 
+    width: 90%;
+}
+.opis p {
+    text-wrap: wrap;
+    letter-spacing: 1px;
+}
