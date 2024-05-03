@@ -2,55 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'ABeeZee', sans-serif;
 }
 
-body {
+
+.lekcija {
+    width: 80vw;
+    height: 785px;
+    background-color: #b4b4b4;
+    margin-left: 10vw ;
+    display: flex;
+    flex-direction: row;
+}
+
+.slika {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    border: 2px solid #000;
+}
+
+.opisKomponente {
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.body {
-    width: 80vw;
-    height: 100%;
-    background-color: red;
-   
-}
-
-.slike {
-    height: 100%;
-    background-color: #f2f4f3;
-    display: grid;
-    grid-template-columns: 33% 34% 33%;
-}
-
-.naslov {
-    height: 70px;
-    grid-column-end: span 3;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-.slika {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.opis { 
-    height: 100%;
-    background-color: #f2f4f3;
-    width: 100%;
-    display: flex;
     text-align: center;
-    justify-content: center;
-}
-.fix { 
-    width: 90%;
-}
-.opis p {
     text-wrap: wrap;
-    letter-spacing: 1px;
+    font-family: 'ABeeZee', sans-serif;
+}   
+
+.opisKomponente h3 {
+    margin-bottom: 50px;
+    font-family: 'ABeeZee', sans-serif;
 }

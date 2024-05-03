@@ -1,0 +1,33 @@
+Centralni procesor (CPU) je srce računara, odgovoran za izvršavanje instrukcija i obradu podataka. CPU je ključni komponent koji omogućava računaru da izvršava zadatke, uključujući obradu informacija, izvršavanje programa, i interakciju sa korisnicima. Evo nekoliko ključnih aspekata procesora računara:
+1. Arhitektura i Tipovi Procesora
+
+    Arhitektura: Osnovni dizajn procesora, koji može biti x86 (kao što su Intel i AMD), ARM (koristi se u većini mobilnih uređaja), MIPS, i druge.
+    Tipovi: Procesori se mogu klasifikovati na osnovu broja jezgara (npr. dual-core, quad-core, octa-core), frekvencije (GHz), i arhitekture (npr. 32-bit, 64-bit).
+
+2. Jezgra i Vrste Jezgara
+
+    Jezgra: Osnovna jedinica procesora koja izvršava instrukcije. Jednojezgarni procesori imaju jednu jezgru, dok višejezgarni procesori imaju više jezgara koje mogu da izvršavaju zadatke paralelno.
+    Vrste Jezgara: Procesori mogu imati različite vrste jezgara, uključujući general purpose jezgre, veštačke inteligencije (AI) jezgre, i specijalizovane jezgre za obradu slike i video snimaka.
+
+3. Tehnologije i Tehnologije Procesiranja
+
+    Tehnologija Procesiranja: Tehnologije kao što su FinFET, 7nm, 5nm, i 3nm omogućavaju proizvodnju većih i efikasnijih procesora.
+    Tehnologije Procesiranja: Tehnologije kao što su SIMD (Single Instruction, Multiple Data), MIMD (Multiple Instruction, Multiple Data), i VLIW (Very Long Instruction Word) omogućavaju procesorima da efikasno obrade velike količine podataka.
+
+4. Performanse i Optimizacija
+
+    Performanse: Performanse procesora se meraju kroz broj operacija po sekundi (FLOPS), vremensku brzinu izvršavanja instrukcija (CPI), i kroz benchmark testove.
+    Optimizacija: Procesori se optimizuju za različite zadatke, uključujući obradu slike, obradu video snimaka, i računsku grafiku, koristeći tehnologije kao što su SIMD, SMT (Simultaneous Multithreading), i predviđanje izvršavanja.
+
+5. Signifikantni Proizvođači i Modeli
+
+    Intel: Poznati po serijama procesora kao što su Core i7, i Core i9.
+    AMD: Poznati po serijama Ryzen i EPYC, koje su pružile konkurenciju Intelu u različitim segmentima tržišta.
+    Apple: Proizvodi M1 i M1 Pro/M1 Max čipove za svoje Mac računare, koji kombinuju CPU, GPU, i druge komponente na jednoj čipovoj ploči.
+
+6. Budućnost Procesora
+
+    Kvantni Procesori: Istraživanja i razvoj u oblasti kvantne mehanike mogu da omoguće stvaranje procesora koji su mnogo brži od današnjih.
+    Hibridni Čipovi: Kombinacija CPU-a, GPU-a, i drugih komponenti na jednoj čipovoj ploči, kao što je to već postignuto u Apple M1 čipovima.
+
+CPU je ključni komponent računara koji direktno utiče na performanse i sposobnost računara da izvršava zadatke. Izbor pravilnog procesora može značajno uticati na performanse računara, što je važno za različite upotrebe, od igara do profesionalnih aplikacija.
