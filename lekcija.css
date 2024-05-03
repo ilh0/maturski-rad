@@ -26,6 +26,11 @@
     border: 2px solid #000;
 }
 
+.imageContainer img {
+    width: 440px;
+    height: 440px;
+}
+
 .opisKomponente {
     width: 60%;
     height: 100%;
