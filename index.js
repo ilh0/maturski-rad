@@ -37,6 +37,11 @@ function prikaziLekciju(imeLekcije) {
     oldContent.innerHTML = "";
 }
 
+
+
+
+
+
 const hamburger = document.getElementById('hamburger');
 const navbarNav = document.querySelector('.navbarMenu ul');
 
